@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Entretenimiento Cinematográfico</title>
+
+    <link rel="stylesheet" href="CSS/ej01.css">
+    <script src="JS/ej01.js" defer></script>
+</head>
+
+<body>
+
+    <header class="encabezado">
+
+        <a class="logo" href="index.html">
+            <span>🎬</span>
+            Entretenimiento Cinematográfico
+        </a>
+
+        <a class="regresar" href="index.html">
+            ← Volver al inicio
+        </a>
+
+    </header>
+
+    <main>
+
+        <section class="presentacion">
+
+            <p class="etiqueta">Cine y televisión</p>
+
+            <h1>Historias que dejaron huella</h1>
+
+            <p>
+                Utiliza las flechas para explorar una selección de películas
+                y series reconocidas por sus historias, personajes y universos.
+            </p>
+
+        </section>
+
+        <section
+            class="carrusel"
+            aria-label="Carrusel de entretenimiento cinematográfico"
+        >
+
+            <div class="contador">
+                <span id="numeroActual">01</span>
+                <span>/</span>
+                <span id="totalImagenes">08</span>
+            </div>
+
+            <div class="diapositivas" aria-live="polite">
+
+                <article class="diapositiva activa" aria-hidden="false">
+
+                    <img
+                        src="Imagen/interstellar.jpg"
+                        alt="Imagen de la película Interstellar"
+                    >
+
+                    <div class="oscurecer"></div>
+
+                    <div class="contenido">
+                        <p class="categoria">Ciencia ficción</p>
+                        <h2>Interstellar</h2>
+
+                        <p>
+                            Un grupo de exploradores viaja a través del espacio
+                            en busca de una nueva esperanza para la humanidad.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="diapositiva" aria-hidden="true">
+
+                    <img
+                        src="Imagen/breaking-bad.jpg"
+                        alt="Imagen de la serie Breaking Bad"
+                    >
+
+                    <div class="oscurecer"></div>
+
+                    <div class="contenido">
+                        <p class="categoria">Drama criminal</p>
+                        <h2>Breaking Bad</h2>
+
+                        <p>
+                            Un profesor de química transforma radicalmente su
+                            vida al ingresar en un peligroso mundo criminal.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="diapositiva" aria-hidden="true">
+
+                    <img
+                        src="Imagen/better-call-saul.jpg"
+                        alt="Imagen de la serie Better Call Saul"
+                    >
+
+                    <div class="oscurecer"></div>
+
+                    <div class="contenido">
+                        <p class="categoria">Drama jurídico</p>
+                        <h2>Better Call Saul</h2>
+
+                        <p>
+                            Jimmy McGill intenta abrirse camino como abogado
+                            mientras avanza hacia su transformación en Saul Goodman.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="diapositiva" aria-hidden="true">
+
+                    <img
+                        src="Imagen/batman-begins.jpg"
+                        alt="Imagen de la película Batman Begins"
+                    >
+
+                    <div class="oscurecer"></div>
+
+                    <div class="contenido">
+                        <p class="categoria">Acción y superhéroes</p>
+                        <h2>Batman Begins</h2>
+
+                        <p>
+                            Bruce Wayne convierte el miedo en un símbolo y
+                            comienza su lucha contra el crimen de Gotham.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="diapositiva" aria-hidden="true">
+
+                    <img
+                        src="Imagen/the-dark-knight.jpg"
+                        alt="Imagen de la película The Dark Knight"
+                    >
+
+                    <div class="oscurecer"></div>
+
+                    <div class="contenido">
+                        <p class="categoria">Acción y drama</p>
+                        <h2>The Dark Knight</h2>
+
+                        <p>
+                            Batman enfrenta al Joker, un criminal decidido a
+                            sumergir Gotham en el caos y desafiar sus principios.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="diapositiva" aria-hidden="true">
+
+                    <img
+                        src="Imagen/the-dark-knight-rises.jpg"
+                        alt="Imagen de la película The Dark Knight Rises"
+                    >
+
+                    <div class="oscurecer"></div>
+
+                    <div class="contenido">
+                        <p class="categoria">Acción y drama</p>
+                        <h2>The Dark Knight Rises</h2>
+
+                        <p>
+                            Batman regresa para proteger Gotham ante la llegada
+                            de Bane y una amenaza capaz de destruir la ciudad.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="diapositiva" aria-hidden="true">
+
+                    <img
+                        src="Imagen/avengers-infinity-war.jpg"
+                        alt="Imagen de Avengers Infinity War"
+                    >
+
+                    <div class="oscurecer"></div>
+
+                    <div class="contenido">
+                        <p class="categoria">Acción y superhéroes</p>
+                        <h2>Avengers: Infinity War</h2>
+
+                        <p>
+                            Los héroes del universo Marvel unen fuerzas para
+                            detener a Thanos y su búsqueda de las Gemas del Infinito.
+                        </p>
+                    </div>
+
+                </article>
+
+                <article class="diapositiva" aria-hidden="true">
+
+                    <img
+                        src="Imagen/avengers-doomsday.jpg"
+                        alt="Imagen de Avengers Doomsday"
+                    >
+
+                    <div class="oscurecer"></div>
+
+                    <div class="contenido">
+                        <p class="categoria">Próximo estreno</p>
+                        <h2>Avengers: Doomsday</h2>
+
+                        <p>
+                            Un nuevo capítulo del universo cinematográfico de
+                            Marvel que continuará el legado de los Avengers.
+                        </p>
+                    </div>
+
+                </article>
+
+            </div>
+
+            <button
+                class="boton-carrusel anterior"
+                id="botonAnterior"
+                type="button"
+                aria-label="Mostrar imagen anterior"
+            >
+                &#10094;
+            </button>
+
+            <button
+                class="boton-carrusel siguiente"
+                id="botonSiguiente"
+                type="button"
+                aria-label="Mostrar imagen siguiente"
+            >
+                &#10095;
+            </button>
+
+            <div class="indicadores" aria-label="Seleccionar contenido">
+
+                <button
+                    class="indicador activo"
+                    type="button"
+                    data-indice="0"
+                    aria-label="Mostrar Interstellar"
+                    aria-current="true"
+                ></button>
+
+                <button
+                    class="indicador"
+                    type="button"
+                    data-indice="1"
+                    aria-label="Mostrar Breaking Bad"
+                ></button>
+
+                <button
+                    class="indicador"
+                    type="button"
+                    data-indice="2"
+                    aria-label="Mostrar Better Call Saul"
+                ></button>
+
+                <button
+                    class="indicador"
+                    type="button"
+                    data-indice="3"
+                    aria-label="Mostrar Batman Begins"
+                ></button>
+
+                <button
+                    class="indicador"
+                    type="button"
+                    data-indice="4"
+                    aria-label="Mostrar The Dark Knight"
+                ></button>
+
+                <button
+                    class="indicador"
+                    type="button"
+                    data-indice="5"
+                    aria-label="Mostrar The Dark Knight Rises"
+                ></button>
+
+                <button
+                    class="indicador"
+                    type="button"
+                    data-indice="6"
+                    aria-label="Mostrar Avengers Infinity War"
+                ></button>
+
+                <button
+                    class="indicador"
+                    type="button"
+                    data-indice="7"
+                    aria-label="Mostrar Avengers Doomsday"
+                ></button>
+
+            </div>
+
+            <div class="progreso">
+                <div
+                    class="relleno-progreso"
+                    id="rellenoProgreso"
+                ></div>
+            </div>
+
+        </section>
+
+        <p class="instruccion">
+            Puedes utilizar los botones o las flechas izquierda y derecha
+            del teclado.
+        </p>
+
+    </main>
+
+    <footer class="pie-pagina">
+        <p>Clase Práctica 2 · Programación Web Avanzada</p>
+        <a href="index.html">Regresar a la portada</a>
+    </footer>
+
+</body>
+</html>
